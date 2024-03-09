@@ -6,7 +6,7 @@ class Smiley():
         self.eye_color = "white"
 
     def set_smile(self, smile_status):
-        is_smile = smile_status
+        self.is_smile = smile_status
         return None
     
     def set_face_color():
