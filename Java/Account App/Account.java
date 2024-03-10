@@ -3,13 +3,16 @@
 
 public class Account {
     
-    private String name;
+    private String name; //instance variable
     
+    //Setter Method
     public void setName(String name){
+        //Parameters are local variables
         this.name = name;
     }
 
+    // Getter Method
     public String getName(){
-        return name;
+        return name; //return value of name to caller
     }
 }
