@@ -1,0 +1,8 @@
+-In Python, access modifiers are not enforced in the same way as in some other programming languages like Java or C++.
+However, there are conventions that you can follow to indicate the level of visibility for a class attribute or method.
+-Python uses a single underscore (_) to indicate a weak internal use variable or method, 
+and a double underscore (__) to indicate a stronger internal use variable or method.
+
+**Name Mangling for Strong Internal Use**
+-The double underscore does involve name mangling, which means the interpreter changes the name of the variable to include the class name, making it less accessible from outside the class.
+-While this does provide a form of privacy, it's not intended as a strict security feature, and it's still possible to access the variable using the mangled name.
